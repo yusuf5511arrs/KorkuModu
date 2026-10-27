@@ -1,0 +1,41 @@
+{
+  "format_version": "1.16.0",
+  "sound_definitions": {
+    "mob.korku_canavari.heartbeat": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/ambient/korku_heartbeat",
+          "stream": true
+        }
+      ]
+    },
+    "mob.korku_canavari.whisper": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/ambient/korku_whisper",
+          "stream": true
+        }
+      ]
+    },
+    "mob.korku_canavari.approach": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/ambient/korku_approach",
+          "stream": true
+        }
+      ]
+    },
+    "mob.korku_canavari.jump": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/ambient/korku_jump",
+          "stream": true
+        }
+      ]
+    }
+  }
+}

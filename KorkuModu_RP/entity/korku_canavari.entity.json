@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "korku:canavar",
+      "materials": {
+        "default": "entity_alphatest",
+        "ghost": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/entity/korku_canavari"
+      },
+      "geometry": {
+        "default": "geometry.korku_canavari"
+      },
+      "scripts": {
+        "initialize": [
+          "variable.is_hurt = 0.0;"
+        ],
+        "animate": [
+          "move",
+          "stalk",
+          "look"
+        ]
+      },
+      "animations": {
+        "move": "animation.korku_canavari.move",
+        "stalk": "animation.korku_canavari.stalk",
+        "look": "animation.korku_canavari.look"
+      },
+      "animation_controllers": [
+        "controller.animation.korku_canavari"
+      ],
+      "render_controllers": [
+        "controller.render.korku_canavari"
+      ],
+      "spawn_egg": {
+        "base_color": "#d9dfe8",
+        "overlay_color": "#1d2330"
+      }
+    }
+  }
+}
