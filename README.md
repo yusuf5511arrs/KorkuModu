@@ -1,18 +1,24 @@
 KorkuModu
-========
+=========
 
-Bedrock 1.26.x horror mob project for "korku:canavar".
+Bedrock 1.26.x psikolojik korku mob add-on projesi.
 
-Folder structure:
-- KorkuModu_BP/
-- KorkuModu_RP/
+Bu repo, add-on yapısını içerir. Görsel ve ses dosyaları burada üretilemez; ama otomatik üretici hazırdır.
 
-Place your art/audio assets in:
+Hızlı kullanım:
+1. pip install -r requirements.txt
+2. python tools/generate_korku_assets.py
+3. Ardından KorkuModu klasörünü zipleyip Minecraft Bedrock’a yükle.
+
+Oluşacak dosyalar:
 - KorkuModu_RP/textures/entity/korku_canavari.png
-- KorkuModu_RP/textures/entity/korku_canavari_emissive.png (optional)
+- KorkuModu_RP/textures/entity/korku_canavari_emissive.png
 - KorkuModu_RP/sounds/ambient/korku_heartbeat.ogg
 - KorkuModu_RP/sounds/ambient/korku_whisper.ogg
 - KorkuModu_RP/sounds/ambient/korku_approach.ogg
 - KorkuModu_RP/sounds/ambient/korku_jump.ogg
 
-Use the project as a template for Bedrock pack import.
+Sonra komut:
+/summon korku:canavar
+
+Not: Bu ortam doğrudan binary indirme işlemi yapamadığı için, görsel ve ses dosyaları otomatik üretilen yerel script ile oluşturuluyor.
