@@ -1,0 +1,56 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.korku_canavar.move": {
+      "animation_length": 1.0,
+      "bones": {
+        "body": {
+          "rotation": [0, 0, 0]
+        },
+        "arm_left": {
+          "rotation": [0, 0, 0]
+        },
+        "arm_right": {
+          "rotation": [0, 0, 0]
+        },
+        "leg_left": {
+          "rotation": [0, 0, 0]
+        },
+        "leg_right": {
+          "rotation": [0, 0, 0]
+        }
+      }
+    },
+    "animation.korku_canavar.stalk": {
+      "animation_length": 1.0,
+      "bones": {
+        "body": {
+          "rotation": [0, 0, 0]
+        },
+        "head": {
+          "rotation": [0, 0, 0]
+        },
+        "arm_left": {
+          "rotation": [-20, 0, -25]
+        },
+        "arm_right": {
+          "rotation": [-20, 0, 25]
+        },
+        "leg_left": {
+          "rotation": [12, 0, 0]
+        },
+        "leg_right": {
+          "rotation": [-12, 0, 0]
+        }
+      }
+    },
+    "animation.korku_canavar.look": {
+      "animation_length": 1.0,
+      "bones": {
+        "head": {
+          "rotation": [0, 0, 0]
+        }
+      }
+    }
+  }
+}

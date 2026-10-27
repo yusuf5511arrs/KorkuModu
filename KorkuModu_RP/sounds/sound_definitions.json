@@ -1,7 +1,7 @@
 {
   "format_version": "1.16.0",
   "sound_definitions": {
-    "mob.korku_canavari.heartbeat": {
+    "mob.korku_canavar.heartbeat": {
       "category": "hostile",
       "sounds": [
         {
@@ -10,7 +10,7 @@
         }
       ]
     },
-    "mob.korku_canavari.whisper": {
+    "mob.korku_canavar.whisper": {
       "category": "hostile",
       "sounds": [
         {
@@ -19,7 +19,7 @@
         }
       ]
     },
-    "mob.korku_canavari.approach": {
+    "mob.korku_canavar.approach": {
       "category": "hostile",
       "sounds": [
         {
@@ -28,7 +28,7 @@
         }
       ]
     },
-    "mob.korku_canavari.jump": {
+    "mob.korku_canavar.jump": {
       "category": "hostile",
       "sounds": [
         {

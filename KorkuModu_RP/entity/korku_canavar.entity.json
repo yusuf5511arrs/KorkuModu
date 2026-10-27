@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "korku:canavar",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/korku_canavar"
+      },
+      "geometry": {
+        "default": "geometry.korku_canavar"
+      },
+      "render_controllers": [
+        "controller.render.korku_canavar"
+      ],
+      "animations": {
+        "move": "animation.korku_canavar.move",
+        "stalk": "animation.korku_canavar.stalk",
+        "look": "animation.korku_canavar.look"
+      },
+      "animation_controllers": [
+        "controller.animation.korku_canavar"
+      ],
+      "scripts": {
+        "initialize": [
+          "variable.is_hurt = 0.0;"
+        ],
+        "animate": [
+          "move",
+          "stalk",
+          "look"
+        ]
+      }
+    }
+  }
+}

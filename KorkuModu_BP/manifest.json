@@ -2,7 +2,7 @@
   "format_version": 2,
   "header": {
     "name": "KorkuModu BP",
-    "description": "Canavar - psychological horror custom mob for Bedrock 1.26.x",
+    "description": "A simple atmospheric horror add-on for Bedrock 1.26.x",
     "uuid": "9de2e7d4-8f2c-4032-b290-4d0d5b38ac49",
     "version": [1, 0, 0],
     "min_engine_version": [1, 26, 0]

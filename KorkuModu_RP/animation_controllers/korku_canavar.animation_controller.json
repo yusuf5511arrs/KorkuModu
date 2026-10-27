@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.korku_canavar": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [
+            "move",
+            "stalk",
+            "look"
+          ],
+          "transitions": [
+            { "move_state": "query.is_moving" },
+            { "stalk_state": "query.is_sneaking" }
+          ]
+        },
+        "move_state": {
+          "animations": [
+            "move"
+          ],
+          "transitions": [
+            { "default": "!query.is_moving" }
+          ]
+        },
+        "stalk_state": {
+          "animations": [
+            "stalk"
+          ],
+          "transitions": [
+            { "default": "!query.is_sneaking" }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -2,7 +2,7 @@
   "format_version": 2,
   "header": {
     "name": "KorkuModu RP",
-    "description": "Canavar - resource pack for the Hollow horror mob",
+    "description": "Simple horror resource pack for the canavar mob",
     "uuid": "0b45b612-9e51-4c0c-bd56-61d1f99b24ce",
     "version": [1, 0, 0],
     "min_engine_version": [1, 26, 0]
